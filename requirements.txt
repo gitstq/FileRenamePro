@@ -1,0 +1,19 @@
+# FileRenamePro 依赖文件
+# Python >= 3.7
+
+# 核心依赖（标准库即可，无需额外安装）
+# 以下为可选依赖，用于增强功能
+
+# 打包工具
+pyinstaller>=5.0; sys_platform != "linux" or platform_machine != "aarch64"
+
+# 测试框架
+pytest>=7.0
+pytest-cov>=4.0
+
+# 代码质量
+flake8>=5.0
+black>=22.0
+
+# 类型检查
+mypy>=1.0
